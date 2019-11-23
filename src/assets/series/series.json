@@ -1,0 +1,16 @@
+{
+  "cod-zombie": {
+    "ID": "",
+    "Thumbnail": "",
+    "PublishedOn": 0,
+    "ModifiedOn": 0,
+    "Posts": [
+      {
+        "ID": "post_on",
+        "Thumbnail": "",
+        "PublishedOn": 0,
+        "ModifiedOn": 0
+      }
+    ]
+  }
+}

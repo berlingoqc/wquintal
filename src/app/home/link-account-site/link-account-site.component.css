@@ -1,9 +1,6 @@
-
-
 .main {
   display: flex;
 }
-
 .img-container {
   display: flex;
   justify-content: center;
@@ -11,16 +8,10 @@
   width: 64px;
   height: 64px;
 }
-
 .text {
   margin-left: 10px;
 }
-
 img {
   max-width: 64px;
   max-height: 64px;
-}
-
-.title {
-
 }

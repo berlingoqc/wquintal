@@ -3,6 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export interface LinkAccountSite {
   url: string;
   img: string;
+  site: string;
   description: string;
 }
 

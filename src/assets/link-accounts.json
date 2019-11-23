@@ -1,7 +1,19 @@
 [
   {
     "url": "https://github.com/berlingoqc",
-    "img": "",
-    "description": ""
+    "img": "assets/img/GitHub-Mark-32px.png",
+    "site": "GitHub"
+  },
+  {
+    "site": "LinkdIn",
+    "img": "assets/img/LI-In-Bug.png"
+  },
+  {
+    "site": "Youtube",
+    "img": "assets/img/youtube_social_icon_red.png"
+  },
+  {
+    "site": "StackOverflow",
+    "img": "assets/img/so-icon.png"
   }
 ]

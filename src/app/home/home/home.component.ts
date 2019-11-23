@@ -12,9 +12,10 @@ import { LinkAccountSite } from '../link-account-site/link-account-site.componen
 export class HomeComponent implements OnInit {
 
   accounts: LinkAccountSite[];
+  data: any;
 
   constructor() {
-    this.accounts = jsonData;
+    this.accounts = (jsonData as any).default as LinkAccountSite[];
     console.log(this.accounts);
   }
 

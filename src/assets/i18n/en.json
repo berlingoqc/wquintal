@@ -1,0 +1,37 @@
+{
+  "taskbar": {
+    "title": "the space of william quintal",
+    "home": "Home",
+    "blog": "Blog",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Welcome to my personal space",
+      "description": "THE site where i write stuff"
+    }
+  },
+  "link-account": {
+    "description": "Spy on what i publish online with the following link",
+    "GitHub": {
+      "description": "dsada"
+    },
+    "LinkdIn": {
+      "description": ""
+    },
+    "Youtube": {
+      "description": ""
+    },
+    "StackOverflow": {
+      "description": ""
+    }
+  },
+  "blog": {
+    "series": {
+      "cod-zombie": {
+        "description": "",
+        "title": "Programming a Call of Duty Zombie clone"
+      }
+    }
+  }
+}

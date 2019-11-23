@@ -1,0 +1,29 @@
+{
+  "taskbar": {
+    "title": "l'espace de william quintal",
+    "home": "Acceuil",
+    "blog": "Blog",
+    "about": "À propos"
+  },
+  "page": {
+    "home": {
+      "title": "Bienvenue dans mon espace personelle",
+      "description": ""
+    }
+  },
+  "link-account": {
+    "description": "",
+    "GitHub": {
+      "description": "dsada"
+    },
+    "LinkdIn": {
+      "description": ""
+    },
+    "Youtube": {
+      "description": ""
+    },
+    "StackOverflow": {
+      "description": ""
+    }
+  }
+}
