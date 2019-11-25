@@ -11,10 +11,6 @@ const routes: Routes = [
     component: HomeComponent
   },
   {
-    path: 'blog',
-    component: BlogComponent
-  },
-  {
     path: 'about',
     component: MarkdownPageComponent,
     data: {

@@ -14,7 +14,7 @@ const route: Routes = [
         path: '',
         component: DashboardComponent
       }, {
-        path: 'series/post/:id/:index',
+        path: 'series/:id/:index',
         component: SeriesPostComponent
       }
     ]

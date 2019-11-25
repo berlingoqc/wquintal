@@ -6,14 +6,17 @@
   },
   {
     "site": "LinkdIn",
+    "url": "https://www.linkedin.com/in/william-quintal-997736136/",
     "img": "assets/img/LI-In-Bug.png"
   },
   {
     "site": "Youtube",
+    "url": "https://www.youtube.com/channel/UCfWKIzcoeyBqdqw0NYqelJw?view_as=subscriber",
     "img": "assets/img/youtube_social_icon_red.png"
   },
   {
     "site": "StackOverflow",
-    "img": "assets/img/so-icon.png"
+    "img": "assets/img/so-icon.png",
+    "url": "https://stackoverflow.com/users/10626512/william-quintal"
   }
 ]

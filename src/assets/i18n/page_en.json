@@ -25,13 +25,5 @@
     "StackOverflow": {
       "description": ""
     }
-  },
-  "blogs": {
-    "series": {
-      "cod-zombie": {
-        "description": "",
-        "title": "Programming a Call of Duty Zombie clone"
-      }
-    }
   }
 }

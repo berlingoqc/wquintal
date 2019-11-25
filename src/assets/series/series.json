@@ -1,15 +1,15 @@
 {
   "cod-zombie": {
     "ID": "",
-    "Thumbnail": "",
-    "PublishedOn": 0,
-    "ModifiedOn": 0,
+    "Thumbnail": "assets/img/cod-zombie.png",
+    "PublishedOn": 1574636557,
+    "ModifiedOn": 1574636557,
     "Posts": [
       {
-        "ID": "post_on",
+        "ID": "intro",
         "Thumbnail": "",
-        "PublishedOn": 0,
-        "ModifiedOn": 0
+        "PublishedOn": 1574636557,
+        "ModifiedOn": 1574636557
       }
     ]
   }

@@ -1,4 +1,4 @@
-
+import { OnInit } from '@angular/core';
 
 export class BlogPost {
   ID: string;
@@ -8,10 +8,7 @@ export class BlogPost {
   PublishedOn: number;
   ModifiedOn: number;
 
-  File: string;
-
   get isRelease() {
     return Date.now() >= this.PublishedOn;
   }
-
 }

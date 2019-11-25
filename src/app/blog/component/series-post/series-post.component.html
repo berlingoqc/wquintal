@@ -1,1 +1,8 @@
-<p>series-post works!</p>
+<div class="container">
+  <div class="post">
+    <markdown class="markdown-post" [src]="blogService.getSeriePostContentPath(serie,index)"></markdown>
+  </div>
+  <div class="list">
+    <app-serie-list-item [id]="serie.ID" [posts]="serie.Posts"></app-serie-list-item>
+  </div>
+</div>

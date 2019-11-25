@@ -43,8 +43,8 @@ export class AppComponent {
   lang = ['fr', 'en'];
 
   constructor(public router: Router, public translateService: TranslateService) {
-    this.translateService.setDefaultLang('en');
-    this.translateService.use('en');
+    this.translateService.setDefaultLang('fr');
+    this.translateService.use('fr');
   }
 
   getLangStyle(lang: string) {

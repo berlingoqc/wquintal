@@ -1,0 +1,5 @@
+<mat-list>
+  <mat-list-item *ngFor="let b of posts; index as i">
+    <a href="blog/series/{{id}}/{{i}}">{{ (i+1)+") " +b.ID}}</a>
+  </mat-list-item>
+</mat-list>

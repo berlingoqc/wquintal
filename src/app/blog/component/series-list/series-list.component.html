@@ -1,21 +1,15 @@
 <div class="center-container">
   <mat-card class="card-series" *ngFor="let p of blogService.series">
     <mat-card-header>
-      <mat-card-title>{{'blog.series.'+p.ID+'.title' | translate}}</mat-card-title>
-
+      <mat-card-title>{{'blogs.series.'+p.ID+'.title' | translate}}</mat-card-title>
     </mat-card-header>
     <img mat-card-image src="{{p.Thumbnail}}" alt="">
     <mat-card-content>
-      <p>{{'blog.series.'+p.ID+'.description' | translate}}</p>
+      <p>{{'blogs.series.'+p.ID+'.description' | translate}}</p>
       <mat-divider></mat-divider>
-      <mat-list>
-        <mat-list-item *ngFor="let b of p.Posts; index as i">
-          <a href="blog/series/{{i}}">{{ (i+1)+") " +b.ID}}</a>
-        </mat-list-item>
-      </mat-list>
+      <app-serie-list-item [id]="p.ID" [posts]="p.Posts"></app-serie-list-item>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button>Start from beggining</button>
     </mat-card-actions>
   </mat-card>
 </div>

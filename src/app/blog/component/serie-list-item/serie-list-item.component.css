@@ -1,6 +1,4 @@
-
 .container {
-  height: 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -9,6 +7,7 @@
 .post {
   flex-grow: 1;
 }
-.post, .list {
+.post,
+.list {
   flex-shrink: 0;
 }
